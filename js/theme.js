@@ -145,12 +145,12 @@ $('.counter').counterUp({
 // Isotop Package
 ////////////////////////////////////////////////////////////////////////////////////////////
 $(window).load(function() {
-$('.portfolio_menu ul li').click(function(){
-	$('.portfolio_menu ul li').removeClass('active_prot_menu');
+$('.gallery_menu ul li').click(function(){
+	$('.gallery_menu ul li').removeClass('active_prot_menu');
 	$(this).addClass('active_prot_menu');
 });
 
-var $container = $('#portfolio');
+var $container = $('#gallery');
 $container.isotope({
   itemSelector: '.col-sm-4',
   layoutMode: 'fitRows'

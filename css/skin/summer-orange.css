@@ -143,12 +143,12 @@ a, a:hover, a:focus {
 }
 
 
-/* === Portfolio === */
-.active_prot_menu a, .portfolio_menu ul li a:hover{
+/* === gallery === */
+.active_prot_menu a, .gallery_menu ul li a:hover{
 	background: #F26B1D !important;
 	color: #fff !important;
 }
-.portfolio_single_content div{
+.gallery_single_content div{
 	background: none repeat scroll 0 0 rgba( 242, 107, 29, 0.95);
 }
 
@@ -161,18 +161,18 @@ a, a:hover, a:focus {
 
 
 
-/* === Price === */
-.prices .panel-default .panel-heading {
+/* === event === */
+.events .panel-default .panel-heading {
 	box-shadow: inset 0px 4px 0px #F26B1D;
 }
-.prices .price-box-featured .panel-heading {
+.events .event-box-featured .panel-heading {
 	background-color: #F26B1D;
 	color: #FFF;
 }
-.prices .price-box-featured .panel-footer {
+.events .event-box-featured .panel-footer {
 	box-shadow: inset 0px -4px 0px #F26B1D;
 }
-.prices .price-box-featured .price-box-ribbon {
+.events .event-box-featured .event-box-ribbon {
 	color: #F26B1D;
 }
 
